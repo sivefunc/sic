@@ -5,6 +5,7 @@ OBJS = $(OBJ_DIR)sic.o
 
 CFLAGS= -Wall -Wextra
 PROG_NAME = sic
+
 $(PROG_NAME) : $(OBJS)
 	@$(CC) -o $(PROG_NAME) $(OBJS) $(CFLAGS)
 
